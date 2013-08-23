@@ -1,4 +1,7 @@
-#Strip a drupal installation of unused cruft
+#Strip a drupal installation 
+##of unused modules
+
+####Intended to improve performance when refreshing module cache when modules have accumulated during development
 
 * 'delete all' script deletes module folders for every module that is listed as 'Not installed' (rather than enabled/disabled)
 * 'delete each' script asks for confirmation for each module that is deleted
